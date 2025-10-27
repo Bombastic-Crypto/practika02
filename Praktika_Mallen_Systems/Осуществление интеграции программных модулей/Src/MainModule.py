@@ -13,10 +13,7 @@ def save_to_different_folder():
     # Путь к НОВОЙ папке для сохранения
     new_folder = "путь/к/папке/куда/сохранить"  # Выбираем новый путь для сохранения
     
-    # Создаем папку если её нет
-    if not os.path.exists(new_folder):
-        os.makedirs(new_folder)
-        print(f" Создана папка: {new_folder}")
+    
     
     # Сохраняем в новую папку
     new_path = os.path.join(new_folder, "имя_нового_файла.jpg")  # По желанию можно переименовать
